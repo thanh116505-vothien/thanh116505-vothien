@@ -15,7 +15,8 @@
   </p>
 
   <p>
-    <a href="https://discord.com"><img src="https://img.shields.io/badge/Discord-vothien0143-D4AF37?style=for-the-badge&logo=discord&logoColor=D4AF37&labelColor=0B0D10" alt="Discord"></a>
+    <a href="https://thanh116505-vothien.github.io/" target="_blank"><img src="https://img.shields.io/badge/Live_Portfolio-thanh116505--vothien.github.io-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=D4AF37&labelColor=0B0D10" alt="Live Portfolio"></a>
+    <a href="https://discord.com"><img src="https://img.shields.io/badge/Discord-vothien0143-8C6B32?style=for-the-badge&logo=discord&logoColor=8C6B32&labelColor=0B0D10" alt="Discord"></a>
     <a href="#-lĩnh-vực-chuyên-môn--technical-domains"><img src="https://img.shields.io/badge/Domains-Engineering-8C6B32?style=for-the-badge&logo=codewars&logoColor=8C6B32&labelColor=0B0D10" alt="Domains"></a>
     <a href="#-ai-engineering--intelligent-automation"><img src="https://img.shields.io/badge/AI_Pipeline-Active-00C896?style=for-the-badge&logo=openai&logoColor=00C896&labelColor=0B0D10" alt="AI Pipeline"></a>
   </p>
