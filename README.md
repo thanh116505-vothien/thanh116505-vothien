@@ -1,10 +1,10 @@
 <div align="center">
 
   <!-- ================================================================= -->
-  <!-- HERO BANNER: ANIMATED GIF VÔ THIÊN - TRẦN VIẾT THÀNH -->
+  <!-- HERO BANNER: VÔ THIÊN - TRẦN VIẾT THÀNH -->
   <!-- ================================================================= -->
   <a href="https://thanh116505-vothien.github.io/" target="_blank">
-    <img src="./assets/hero-banner.gif" alt="VÔ THIÊN — TRẦN VIẾT THÀNH" width="880">
+    <img src="./assets/hero-banner.png" alt="VÔ THIÊN — TRẦN VIẾT THÀNH" width="880">
   </a>
 
   <br><br>

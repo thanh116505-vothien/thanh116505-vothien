@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" width="880" height="600">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" width="880" height="620">
   <defs>
     <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0E131F"/>
@@ -19,122 +19,122 @@
   </defs>
 
   <style>
-    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 16px; font-weight: 800; fill: #D4AF37; letter-spacing: 0.5px; }
-    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 500; fill: #94A3B8; }
-    .label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 700; fill: #CBD5E1; }
-    .desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12.5px; fill: #94A3B8; }
-    .badge-text { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 13px; font-weight: 700; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 17px; font-weight: 800; fill: #D4AF37; letter-spacing: 0.5px; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; font-weight: 500; fill: #94A3B8; }
+    .sec-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14.5px; font-weight: 700; }
+    .desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; fill: #94A3B8; }
+    .badge-text { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 13.5px; font-weight: 700; }
   </style>
 
   <!-- Outer Card -->
-  <rect x="1" y="1" width="878" height="598" rx="16" fill="url(#cardBg)" stroke="#232F48" stroke-width="1.5"/>
+  <rect x="1" y="1" width="878" height="618" rx="16" fill="url(#cardBg)" stroke="#232F48" stroke-width="1.5"/>
 
   <!-- Card Header -->
-  <g transform="translate(26, 30)">
+  <g transform="translate(26, 32)">
     <text class="title" x="0" y="0">🛠️ TECH STACK &amp; ENGINEERING CAPABILITIES</text>
     <text class="subtitle" x="0" y="22">Hệ thống ngôn ngữ lập trình, kiến trúc AI Agent và công cụ thực chiến</text>
   </g>
 
   <!-- ================================================================= -->
-  <!-- SECTION 1: CORE LANGUAGES (C, C++, C# BEGINNER) -->
+  <!-- SECTION 1: CORE LANGUAGES (ALL BEGINNER - NO CHUYÊN SÂU) -->
   <!-- ================================================================= -->
-  <g transform="translate(26, 78)">
+  <g transform="translate(26, 80)">
     <rect x="0" y="0" width="828" height="106" rx="12" fill="url(#coreBg)" stroke="#1E293B" stroke-width="1.2"/>
     
     <!-- Title -->
-    <text class="label" x="20" y="26" fill="#38BDF8">💻 NGÔN NGỮ LẬP TRÌNH CỐT LÕI (Core Development)</text>
+    <text class="sec-label" x="20" y="26" fill="#38BDF8">💻 NGÔN NGỮ LẬP TRÌNH (Beginner / Đang học nền tảng)</text>
     
-    <!-- Badges in their own clear row -->
+    <!-- Badges Row -->
     <g transform="translate(20, 36)">
       <!-- C -->
       <g transform="translate(0, 0)">
-        <rect width="80" height="34" rx="8" fill="#00599C" fill-opacity="0.3" stroke="#00599C" stroke-width="1.5"/>
-        <text class="badge-text" x="40" y="22" fill="#60A5FA" text-anchor="middle">C</text>
+        <rect width="130" height="34" rx="8" fill="#00599C" fill-opacity="0.3" stroke="#00599C" stroke-width="1.5"/>
+        <text class="badge-text" x="65" y="22" fill="#60A5FA" text-anchor="middle">C (Beginner)</text>
       </g>
-      <!-- C++ Core -->
-      <g transform="translate(92, 0)">
-        <rect width="245" height="34" rx="8" fill="#004482" fill-opacity="0.4" stroke="#38BDF8" stroke-width="2"/>
-        <text class="badge-text" x="122" y="22" fill="#38BDF8" text-anchor="middle">⚡ C++ (Chuyên sâu OOP &amp; RAII)</text>
+      <!-- C++ Beginner -->
+      <g transform="translate(142, 0)">
+        <rect width="150" height="34" rx="8" fill="#004482" fill-opacity="0.4" stroke="#38BDF8" stroke-width="1.8"/>
+        <text class="badge-text" x="75" y="22" fill="#38BDF8" text-anchor="middle">C++ (Beginner)</text>
       </g>
       <!-- C# Beginner -->
-      <g transform="translate(349, 0)">
-        <rect width="180" height="34" rx="8" fill="#175429" fill-opacity="0.3" stroke="#22C55E" stroke-width="1.5"/>
-        <text class="badge-text" x="90" y="22" fill="#4ADE80" text-anchor="middle">🌱 C# (Beginner / Unity)</text>
+      <g transform="translate(304, 0)">
+        <rect width="150" height="34" rx="8" fill="#175429" fill-opacity="0.3" stroke="#22C55E" stroke-width="1.5"/>
+        <text class="badge-text" x="75" y="22" fill="#4ADE80" text-anchor="middle">C# (Beginner)</text>
       </g>
     </g>
 
     <!-- Description -->
-    <text class="desc" x="20" y="92">Bám sát C++ Core Guidelines, quản lý tài nguyên chuẩn RAII, tránh rò rỉ bộ nhớ (zero-leak) &amp; tối ưu hiệu năng.</text>
+    <text class="desc" x="20" y="92">Đang học nền tảng lập trình hướng đối tượng (OOP), cú pháp C/C++ và quản lý bộ nhớ.</text>
   </g>
 
   <!-- ================================================================= -->
   <!-- SECTION 2: AI & MULTI-AGENT SPOTLIGHT (MỤC NỔI BẬT NHẤT) -->
   <!-- ================================================================= -->
-  <g transform="translate(26, 202)" filter="url(#aiShadow)">
-    <rect x="0" y="0" width="828" height="230" rx="14" fill="#0E162C" stroke="url(#aiGlow)" stroke-width="2"/>
+  <g transform="translate(26, 204)" filter="url(#aiShadow)">
+    <rect x="0" y="0" width="828" height="236" rx="14" fill="#0E162C" stroke="url(#aiGlow)" stroke-width="2.5"/>
     
     <!-- Header with Highlight Pill -->
     <g transform="translate(20, 26)">
       <rect x="0" y="-16" width="165" height="26" rx="6" fill="url(#aiGlow)"/>
       <text font-family="sans-serif" font-size="11.5px" font-weight="800" fill="#FFFFFF" x="82" y="2" text-anchor="middle">👑 MỤC NỔI BẬT NHẤT</text>
       
-      <text font-family="sans-serif" font-size="17px" font-weight="800" fill="#38BDF8" x="180" y="4">🤖 AI &amp; MULTI-AGENT ORCHESTRATION (Trọng Tâm &amp; Tự Động Hóa)</text>
-      <text class="desc" x="0" y="30" fill="#94A3B8">Chỉ đạo AI code · Điều phối Multi-Agent · Xây dựng Pipeline tự động hóa chuẩn xác</text>
+      <text font-family="sans-serif" font-size="17.5px" font-weight="800" fill="#38BDF8" x="180" y="4">🤖 AI &amp; MULTI-AGENT ORCHESTRATION (Trọng Tâm &amp; Tự Động Hóa)</text>
+      <text class="desc" x="0" y="30" fill="#CBD5E1">Chỉ đạo AI code · Điều phối Multi-Agent · Xây dựng Pipeline tự động hóa chuẩn xác</text>
     </g>
 
     <!-- Sub-row 1: Languages for AI code & Tooling -->
-    <g transform="translate(20, 88)">
-      <text class="label" x="0" y="0" fill="#C084FC" font-size="13.5px">Ngôn ngữ dùng cho AI code &amp; Tự động hóa:</text>
+    <g transform="translate(20, 90)">
+      <text class="sec-label" x="0" y="0" fill="#C084FC" font-size="14px">Ngôn ngữ dùng cho AI code &amp; Tự động hóa:</text>
       
       <g transform="translate(0, 10)">
         <!-- Python -->
         <g transform="translate(0, 0)">
-          <rect width="105" height="32" rx="6" fill="#3776AB" fill-opacity="0.3" stroke="#38BDF8" stroke-width="1.2"/>
-          <text class="badge-text" x="52" y="21" fill="#93C5FD" text-anchor="middle">🐍 Python</text>
+          <rect width="105" height="34" rx="6" fill="#3776AB" fill-opacity="0.3" stroke="#38BDF8" stroke-width="1.2"/>
+          <text class="badge-text" x="52" y="22" fill="#93C5FD" text-anchor="middle">🐍 Python</text>
         </g>
         <!-- TypeScript -->
         <g transform="translate(115, 0)">
-          <rect width="130" height="32" rx="6" fill="#3178C6" fill-opacity="0.3" stroke="#60A5FA" stroke-width="1.2"/>
-          <text class="badge-text" x="65" y="21" fill="#93C5FD" text-anchor="middle">📘 TypeScript</text>
+          <rect width="135" height="34" rx="6" fill="#3178C6" fill-opacity="0.3" stroke="#60A5FA" stroke-width="1.2"/>
+          <text class="badge-text" x="67" y="22" fill="#93C5FD" text-anchor="middle">📘 TypeScript</text>
         </g>
         <!-- JavaScript -->
-        <g transform="translate(255, 0)">
-          <rect width="130" height="32" rx="6" fill="#F7DF1E" fill-opacity="0.2" stroke="#FBBF24" stroke-width="1.2"/>
-          <text class="badge-text" x="65" y="21" fill="#FDE68A" text-anchor="middle">⚡ JavaScript</text>
+        <g transform="translate(260, 0)">
+          <rect width="135" height="34" rx="6" fill="#F7DF1E" fill-opacity="0.2" stroke="#FBBF24" stroke-width="1.2"/>
+          <text class="badge-text" x="67" y="22" fill="#FDE68A" text-anchor="middle">⚡ JavaScript</text>
         </g>
         <!-- Lua -->
-        <g transform="translate(395, 0)">
-          <rect width="85" height="32" rx="6" fill="#2C2D72" fill-opacity="0.35" stroke="#818CF8" stroke-width="1.2"/>
-          <text class="badge-text" x="42" y="21" fill="#C7D2FE" text-anchor="middle">🌙 Lua</text>
+        <g transform="translate(405, 0)">
+          <rect width="90" height="34" rx="6" fill="#2C2D72" fill-opacity="0.35" stroke="#818CF8" stroke-width="1.2"/>
+          <text class="badge-text" x="45" y="22" fill="#C7D2FE" text-anchor="middle">🌙 Lua</text>
         </g>
         <!-- Ruby -->
-        <g transform="translate(490, 0)">
-          <rect width="90" height="32" rx="6" fill="#CC342D" fill-opacity="0.25" stroke="#F87171" stroke-width="1.2"/>
-          <text class="badge-text" x="45" y="21" fill="#FECACA" text-anchor="middle">💎 Ruby</text>
+        <g transform="translate(505, 0)">
+          <rect width="95" height="34" rx="6" fill="#CC342D" fill-opacity="0.25" stroke="#F87171" stroke-width="1.2"/>
+          <text class="badge-text" x="47" y="22" fill="#FECACA" text-anchor="middle">💎 Ruby</text>
         </g>
       </g>
     </g>
 
     <!-- Sub-row 2: AI Frameworks & Agentic Tooling -->
-    <g transform="translate(20, 158)">
-      <text class="label" x="0" y="0" fill="#38BDF8" font-size="13.5px">Nền tảng &amp; Kỹ thuật AI Agent:</text>
+    <g transform="translate(20, 162)">
+      <text class="sec-label" x="0" y="0" fill="#38BDF8" font-size="14px">Nền tảng &amp; Kỹ thuật AI Agent:</text>
       
       <g transform="translate(0, 10)">
         <g transform="translate(0, 0)">
-          <rect width="180" height="32" rx="6" fill="#4285F4" fill-opacity="0.25" stroke="#60A5FA" stroke-width="1.2"/>
-          <text class="badge-text" x="90" y="21" fill="#BAE6FD" text-anchor="middle">🌐 Google Antigravity</text>
+          <rect width="180" height="34" rx="6" fill="#4285F4" fill-opacity="0.25" stroke="#60A5FA" stroke-width="1.2"/>
+          <text class="badge-text" x="90" y="22" fill="#BAE6FD" text-anchor="middle">🌐 Google Antigravity</text>
         </g>
         <g transform="translate(190, 0)">
-          <rect width="220" height="32" rx="6" fill="#8B5CF6" fill-opacity="0.25" stroke="#A78BFA" stroke-width="1.2"/>
-          <text class="badge-text" x="110" y="21" fill="#DDD6FE" text-anchor="middle">🤖 Multi-Agent Orchestration</text>
+          <rect width="220" height="34" rx="6" fill="#8B5CF6" fill-opacity="0.25" stroke="#A78BFA" stroke-width="1.2"/>
+          <text class="badge-text" x="110" y="22" fill="#DDD6FE" text-anchor="middle">🤖 Multi-Agent System</text>
         </g>
         <g transform="translate(420, 0)">
-          <rect width="185" height="32" rx="6" fill="#10B981" fill-opacity="0.2" stroke="#34D399" stroke-width="1.2"/>
-          <text class="badge-text" x="92" y="21" fill="#A7F3D0" text-anchor="middle">⚡ LLM Pipelines &amp; RAG</text>
+          <rect width="190" height="34" rx="6" fill="#10B981" fill-opacity="0.2" stroke="#34D399" stroke-width="1.2"/>
+          <text class="badge-text" x="95" y="22" fill="#A7F3D0" text-anchor="middle">⚡ LLM Pipelines &amp; RAG</text>
         </g>
-        <g transform="translate(615, 0)">
-          <rect width="170" height="32" rx="6" fill="#F59E0B" fill-opacity="0.2" stroke="#FBBF24" stroke-width="1.2"/>
-          <text class="badge-text" x="85" y="21" fill="#FDE68A" text-anchor="middle">🎯 Prompt Architecture</text>
+        <g transform="translate(620, 0)">
+          <rect width="170" height="34" rx="6" fill="#F59E0B" fill-opacity="0.2" stroke="#FBBF24" stroke-width="1.2"/>
+          <text class="badge-text" x="85" y="22" fill="#FDE68A" text-anchor="middle">🎯 Prompt Architecture</text>
         </g>
       </g>
     </g>
@@ -143,29 +143,29 @@
   <!-- ================================================================= -->
   <!-- SECTION 3: GAME ENGINES & DEV TOOLS -->
   <!-- ================================================================= -->
-  <g transform="translate(26, 450)">
-    <rect x="0" y="0" width="828" height="126" rx="12" fill="url(#coreBg)" stroke="#1E293B" stroke-width="1.2"/>
+  <g transform="translate(26, 458)">
+    <rect x="0" y="0" width="828" height="136" rx="12" fill="url(#coreBg)" stroke="#1E293B" stroke-width="1.2"/>
 
     <!-- Game Engines -->
-    <g transform="translate(20, 24)">
-      <text class="label" x="0" y="18" fill="#F59E0B">🎮 Game &amp; Engines:</text>
-      <g transform="translate(165, -4)">
-        <rect width="90" height="30" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/><text class="badge-text" x="45" y="20" fill="#E2E8F0" text-anchor="middle">Unity</text>
-        <rect x="100" width="100" height="30" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/><text class="badge-text" x="150" y="20" fill="#E2E8F0" text-anchor="middle">Unreal</text>
-        <rect x="210" width="100" height="30" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/><text class="badge-text" x="260" y="20" fill="#E2E8F0" text-anchor="middle">Ren'Py</text>
-        <rect x="320" width="120" height="30" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/><text class="badge-text" x="380" y="20" fill="#E2E8F0" text-anchor="middle">RPG Maker</text>
+    <g transform="translate(20, 26)">
+      <text class="sec-label" x="0" y="20" fill="#F59E0B">🎮 Game &amp; Engines:</text>
+      <g transform="translate(170, -3)">
+        <rect width="90" height="32" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/><text class="badge-text" x="45" y="21" fill="#E2E8F0" text-anchor="middle">Unity</text>
+        <rect x="100" width="130" height="32" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/><text class="badge-text" x="165" y="21" fill="#E2E8F0" text-anchor="middle">Unreal Engine</text>
+        <rect x="240" width="105" height="32" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/><text class="badge-text" x="292" y="21" fill="#E2E8F0" text-anchor="middle">Ren'Py</text>
+        <rect x="355" width="125" height="32" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/><text class="badge-text" x="417" y="21" fill="#E2E8F0" text-anchor="middle">RPG Maker</text>
       </g>
     </g>
 
     <!-- Tools & QA -->
-    <g transform="translate(20, 74)">
-      <text class="label" x="0" y="18" fill="#38BDF8">⚙️ Công cụ &amp; Khác:</text>
-      <g transform="translate(165, -4)">
-        <rect width="75" height="30" rx="6" fill="#F05032" fill-opacity="0.2" stroke="#F87171" stroke-width="1"/><text class="badge-text" x="37" y="20" fill="#FCA5A5" text-anchor="middle">Git</text>
-        <rect x="85" width="95" height="30" rx="6" fill="#2496ED" fill-opacity="0.2" stroke="#60A5FA" stroke-width="1"/><text class="badge-text" x="132" y="20" fill="#93C5FD" text-anchor="middle">Docker</text>
-        <rect x="190" width="135" height="30" rx="6" fill="#00C896" fill-opacity="0.2" stroke="#34D399" stroke-width="1"/><text class="badge-text" x="257" y="20" fill="#A7F3D0" text-anchor="middle">uTest (QA)</text>
-        <rect x="335" width="125" height="30" rx="6" fill="#8B5CF6" fill-opacity="0.2" stroke="#A78BFA" stroke-width="1"/><text class="badge-text" x="397" y="20" fill="#DDD6FE" text-anchor="middle">Modding</text>
-        <rect x="470" width="155" height="30" rx="6" fill="#38BDF8" fill-opacity="0.2" stroke="#38BDF8" stroke-width="1"/><text class="badge-text" x="547" y="20" fill="#BAE6FD" text-anchor="middle">Reverse Eng</text>
+    <g transform="translate(20, 80)">
+      <text class="sec-label" x="0" y="20" fill="#38BDF8">⚙️ Công cụ &amp; Khác:</text>
+      <g transform="translate(170, -3)">
+        <rect width="80" height="32" rx="6" fill="#F05032" fill-opacity="0.2" stroke="#F87171" stroke-width="1"/><text class="badge-text" x="40" y="21" fill="#FCA5A5" text-anchor="middle">Git</text>
+        <rect x="90" width="100" height="32" rx="6" fill="#2496ED" fill-opacity="0.2" stroke="#60A5FA" stroke-width="1"/><text class="badge-text" x="140" y="21" fill="#93C5FD" text-anchor="middle">Docker</text>
+        <rect x="200" width="135" height="32" rx="6" fill="#00C896" fill-opacity="0.2" stroke="#34D399" stroke-width="1"/><text class="badge-text" x="267" y="21" fill="#A7F3D0" text-anchor="middle">uTest (QA)</text>
+        <rect x="345" width="125" height="32" rx="6" fill="#8B5CF6" fill-opacity="0.2" stroke="#A78BFA" stroke-width="1"/><text class="badge-text" x="407" y="21" fill="#DDD6FE" text-anchor="middle">Modding</text>
+        <rect x="480" width="155" height="32" rx="6" fill="#38BDF8" fill-opacity="0.2" stroke="#38BDF8" stroke-width="1"/><text class="badge-text" x="557" y="21" fill="#BAE6FD" text-anchor="middle">Reverse Eng</text>
       </g>
     </g>
   </g>
