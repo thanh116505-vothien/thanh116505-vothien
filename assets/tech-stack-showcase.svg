@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" width="880" height="520">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E131F"/>
+      <stop offset="100%" stop-color="#080B12"/>
+    </linearGradient>
+    <linearGradient id="aiGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="coreBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141B2D"/>
+      <stop offset="100%" stop-color="#0D1220"/>
+    </linearGradient>
+    <filter id="aiShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#8B5CF6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #D4AF37; letter-spacing: 0.5px; }
+    .label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #94A3B8; }
+    .text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; fill: #CBD5E1; }
+    .badge-text { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 12px; font-weight: 700; }
+  </style>
+
+  <!-- Outer Main Card -->
+  <rect x="1" y="1" width="878" height="518" rx="16" fill="url(#cardBg)" stroke="#232F48" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <g transform="translate(24, 28)">
+    <text class="title" x="0" y="0">🛠️ TECH STACK &amp; ENGINEERING CAPABILITIES</text>
+    <text class="label" x="0" y="20">Hệ thống ngôn ngữ lập trình, kiến trúc AI Agent và công cụ thực chiến</text>
+  </g>
+
+  <!-- SECTION 1: CORE LANGUAGES (C, C++, C# BEGINNER) -->
+  <g transform="translate(24, 76)">
+    <rect x="0" y="0" width="832" height="82" rx="12" fill="url(#coreBg)" stroke="#1E293B" stroke-width="1.2"/>
+    <text class="label" x="20" y="28">💻 NGÔN NGỮ CODE CHÍNH (Core Development):</text>
+    <text class="text" x="20" y="54" fill="#64748B">Trọng tâm C/C++ chuẩn mực, OOP Core Guidelines, quản lý tài nguyên RAII &amp; tối ưu bộ nhớ.</text>
+
+    <!-- Badges Row -->
+    <g transform="translate(420, 22)">
+      <!-- C -->
+      <g transform="translate(0, 0)">
+        <rect width="70" height="38" rx="8" fill="#00599C" fill-opacity="0.25" stroke="#00599C" stroke-width="1.5"/>
+        <text class="badge-text" x="35" y="24" fill="#60A5FA" text-anchor="middle">C</text>
+      </g>
+      <!-- C++ -->
+      <g transform="translate(80, 0)">
+        <rect width="130" height="38" rx="8" fill="#004482" fill-opacity="0.35" stroke="#38BDF8" stroke-width="2"/>
+        <text class="badge-text" x="65" y="24" fill="#38BDF8" text-anchor="middle">⚡ C++ (Core)</text>
+      </g>
+      <!-- C# Beginner -->
+      <g transform="translate(220, 0)">
+        <rect width="175" height="38" rx="8" fill="#175429" fill-opacity="0.25" stroke="#22C55E" stroke-width="1.5"/>
+        <text class="badge-text" x="87" y="24" fill="#4ADE80" text-anchor="middle">🌱 C# (Beginner)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION 2: AI & MULTI-AGENT SPOTLIGHT (MỤC NỔI BẬT NHẤT) -->
+  <g transform="translate(24, 174)" filter="url(#aiShadow)">
+    <!-- Glowing AI Box -->
+    <rect x="0" y="0" width="832" height="205" rx="14" fill="#0E162C" stroke="url(#aiGlow)" stroke-width="2"/>
+    
+    <!-- Header with Prominent Tag -->
+    <g transform="translate(20, 24)">
+      <rect x="0" y="-14" width="155" height="24" rx="6" fill="url(#aiGlow)"/>
+      <text font-family="sans-serif" font-size="11px" font-weight="800" fill="#FFFFFF" x="77" y="2" text-anchor="middle">👑 MỤC NỔI BẬT NHẤT</text>
+      
+      <text font-family="sans-serif" font-size="16px" font-weight="800" fill="#38BDF8" x="168" y="3">🤖 AI &amp; MULTI-AGENT ORCHESTRATION (Trọng Tâm &amp; Tự Động Hóa)</text>
+      <text font-family="sans-serif" font-size="12px" fill="#94A3B8" x="0" y="28">Chỉ đạo AI code, phối hợp đa tác tử (Multi-Agent), Prompt Engineering &amp; xây dựng pipeline tự động hóa</text>
+    </g>
+
+    <!-- Sub-row 1: Languages used for AI code & Tooling -->
+    <g transform="translate(20, 88)">
+      <text class="label" x="0" y="18" fill="#C084FC">Ngôn ngữ dùng cho AI code &amp; Tự động hóa:</text>
+      
+      <g transform="translate(290, -3)">
+        <!-- Python -->
+        <g transform="translate(0, 0)">
+          <rect width="90" height="30" rx="6" fill="#3776AB" fill-opacity="0.3" stroke="#38BDF8" stroke-width="1.2"/>
+          <text class="badge-text" x="45" y="19" fill="#93C5FD" text-anchor="middle">🐍 Python</text>
+        </g>
+        <!-- TypeScript -->
+        <g transform="translate(98, 0)">
+          <rect width="112" height="30" rx="6" fill="#3178C6" fill-opacity="0.3" stroke="#60A5FA" stroke-width="1.2"/>
+          <text class="badge-text" x="56" y="19" fill="#93C5FD" text-anchor="middle">📘 TypeScript</text>
+        </g>
+        <!-- JavaScript -->
+        <g transform="translate(218, 0)">
+          <rect width="112" height="30" rx="6" fill="#F7DF1E" fill-opacity="0.2" stroke="#FBBF24" stroke-width="1.2"/>
+          <text class="badge-text" x="56" y="19" fill="#FDE68A" text-anchor="middle">⚡ JavaScript</text>
+        </g>
+        <!-- Lua -->
+        <g transform="translate(338, 0)">
+          <rect width="75" height="30" rx="6" fill="#2C2D72" fill-opacity="0.35" stroke="#818CF8" stroke-width="1.2"/>
+          <text class="badge-text" x="37" y="19" fill="#C7D2FE" text-anchor="middle">🌙 Lua</text>
+        </g>
+        <!-- Ruby -->
+        <g transform="translate(421, 0)">
+          <rect width="80" height="30" rx="6" fill="#CC342D" fill-opacity="0.25" stroke="#F87171" stroke-width="1.2"/>
+          <text class="badge-text" x="40" y="19" fill="#FECACA" text-anchor="middle">💎 Ruby</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Sub-row 2: AI Frameworks & Agentic Tooling -->
+    <g transform="translate(20, 142)">
+      <text class="label" x="0" y="18" fill="#38BDF8">Nền tảng &amp; Kỹ thuật AI Agent:</text>
+      
+      <g transform="translate(290, -3)">
+        <g transform="translate(0, 0)">
+          <rect width="160" height="30" rx="6" fill="#4285F4" fill-opacity="0.25" stroke="#60A5FA" stroke-width="1.2"/>
+          <text class="badge-text" x="80" y="19" fill="#BAE6FD" text-anchor="middle">🌐 Google Antigravity</text>
+        </g>
+        <g transform="translate(168, 0)">
+          <rect width="130" height="30" rx="6" fill="#8B5CF6" fill-opacity="0.25" stroke="#A78BFA" stroke-width="1.2"/>
+          <text class="badge-text" x="65" y="19" fill="#DDD6FE" text-anchor="middle">🤖 Multi-Agent</text>
+        </g>
+        <g transform="translate(306, 0)">
+          <rect width="135" height="30" rx="6" fill="#10B981" fill-opacity="0.2" stroke="#34D399" stroke-width="1.2"/>
+          <text class="badge-text" x="67" y="19" fill="#A7F3D0" text-anchor="middle">⚡ LLM Pipelines</text>
+        </g>
+        <g transform="translate(449, 0)">
+          <rect width="60" height="30" rx="6" fill="#F59E0B" fill-opacity="0.2" stroke="#FBBF24" stroke-width="1.2"/>
+          <text class="badge-text" x="30" y="19" fill="#FDE68A" text-anchor="middle">🎯 RAG</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION 3: GAME ENGINES & DEV TOOLS -->
+  <g transform="translate(24, 394)">
+    <rect x="0" y="0" width="832" height="106" rx="12" fill="url(#coreBg)" stroke="#1E293B" stroke-width="1.2"/>
+
+    <!-- Game Engines -->
+    <g transform="translate(20, 20)">
+      <text class="label" x="0" y="16">🎮 Game &amp; Engines:</text>
+      <g transform="translate(170, -4)">
+        <rect width="80" height="28" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/><text class="badge-text" x="40" y="18" fill="#E2E8F0" text-anchor="middle">Unity</text>
+        <rect x="88" width="88" height="28" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/><text class="badge-text" x="132" y="18" fill="#E2E8F0" text-anchor="middle">Unreal</text>
+        <rect x="184" width="88" height="28" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/><text class="badge-text" x="228" y="18" fill="#E2E8F0" text-anchor="middle">Ren'Py</text>
+        <rect x="280" width="105" height="28" rx="6" fill="#1E293B" stroke="#475569" stroke-width="1"/><text class="badge-text" x="332" y="18" fill="#E2E8F0" text-anchor="middle">RPG Maker</text>
+      </g>
+    </g>
+
+    <!-- Tools & QA -->
+    <g transform="translate(20, 62)">
+      <text class="label" x="0" y="16">⚙️ Công cụ &amp; Khác:</text>
+      <g transform="translate(170, -4)">
+        <rect width="65" height="28" rx="6" fill="#F05032" fill-opacity="0.2" stroke="#F87171" stroke-width="1"/><text class="badge-text" x="32" y="18" fill="#FCA5A5" text-anchor="middle">Git</text>
+        <rect x="73" width="85" height="28" rx="6" fill="#2496ED" fill-opacity="0.2" stroke="#60A5FA" stroke-width="1"/><text class="badge-text" x="115" y="18" fill="#93C5FD" text-anchor="middle">Docker</text>
+        <rect x="166" width="130" height="28" rx="6" fill="#00C896" fill-opacity="0.2" stroke="#34D399" stroke-width="1"/><text class="badge-text" x="231" y="18" fill="#A7F3D0" text-anchor="middle">uTest (QA)</text>
+        <rect x="304" width="115" height="28" rx="6" fill="#8B5CF6" fill-opacity="0.2" stroke="#A78BFA" stroke-width="1"/><text class="badge-text" x="361" y="18" fill="#DDD6FE" text-anchor="middle">Modding</text>
+        <rect x="427" width="145" height="28" rx="6" fill="#38BDF8" fill-opacity="0.2" stroke="#38BDF8" stroke-width="1"/><text class="badge-text" x="499" y="18" fill="#BAE6FD" text-anchor="middle">Reverse Eng</text>
+      </g>
+    </g>
+  </g>
+</svg>
