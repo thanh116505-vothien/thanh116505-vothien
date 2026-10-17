@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 240" width="425" height="240">
   <defs>
     <linearGradient id="aboutBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#101726"/>
+      <stop offset="0%" stop-color="#111828"/>
       <stop offset="100%" stop-color="#0A0E18"/>
     </linearGradient>
     <clipPath id="journeyClip">
@@ -12,24 +12,24 @@
 
   <!-- Left Text -->
   <g transform="translate(18, 25)">
-    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#D4AF37" x="0" y="0">💡 Về mình</text>
-    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#E2E8F0" x="0" y="24">Sinh viên K66 - CNPM (ĐH Hàng hải - VMU)</text>
-    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8" x="0" y="42">Đam mê hệ thống C++, game &amp; kiến trúc AI.</text>
-    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#94A3B8" x="0" y="58">Thích tự học &amp; biến ý tưởng thành sản phẩm.</text>
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" fill="#D4AF37" x="0" y="0">💡 Về mình</text>
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#38BDF8" x="0" y="24">Sinh viên K66 - CNPM (VMU)</text>
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#CBD5E1" x="0" y="43">Đam mê C++, game modding &amp; AI.</text>
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#94A3B8" x="0" y="60">Tự học &amp; biến ý tưởng thành code.</text>
     
     <!-- 4 purple bullets -->
-    <g transform="translate(0, 80)">
+    <g transform="translate(0, 82)">
       <circle cx="5" cy="5" r="4" fill="#8B5CF6"/>
-      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#CBD5E1" x="16" y="8">Bản địa hóa trò chơi &amp; Font glyph</text>
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#E2E8F0" x="16" y="9">Bản địa hóa trò chơi &amp; Font glyph</text>
       
       <circle cx="5" cy="28" r="4" fill="#8B5CF6"/>
-      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#CBD5E1" x="16" y="31">Kỹ thuật hệ thống &amp; Hiệu năng C++</text>
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#E2E8F0" x="16" y="32">Kỹ thuật hệ thống &amp; C++ RAII</text>
       
       <circle cx="5" cy="51" r="4" fill="#8B5CF6"/>
-      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#CBD5E1" x="16" y="54">AI Agent, Tự động hóa &amp; Công cụ</text>
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#E2E8F0" x="16" y="55">AI Multi-Agent &amp; Tooling</text>
       
       <circle cx="5" cy="74" r="4" fill="#8B5CF6"/>
-      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#CBD5E1" x="16" y="77">Bảo mật phần mềm &amp; Game Modding</text>
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="500" fill="#E2E8F0" x="16" y="78">Bảo mật phần mềm &amp; Game Mod</text>
     </g>
   </g>
 

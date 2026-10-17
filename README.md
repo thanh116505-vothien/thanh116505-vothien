@@ -1,14 +1,18 @@
 <div align="center">
 
   <!-- ================================================================= -->
-  <!-- HERO BANNER: VÔ THIÊN - TRẦN VIẾT THÀNH -->
+  <!-- HERO BANNER: ANIMATED GIF VÔ THIÊN - TRẦN VIẾT THÀNH -->
   <!-- ================================================================= -->
   <a href="https://thanh116505-vothien.github.io/" target="_blank">
-    <img src="./assets/hero-banner.png" alt="VÔ THIÊN — TRẦN VIẾT THÀNH" width="880">
+    <img src="./assets/hero-banner.gif" alt="VÔ THIÊN — TRẦN VIẾT THÀNH" width="880">
   </a>
 
+  <br><br>
+
   <!-- DYNAMIC TYPING STATUS -->
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3000&pause=1200&color=38BDF8&background=0E131F&center=true&vCenter=true&width=880&height=42&lines=C+%26+C%2B%2B+Systems+%E2%80%94+Modern+OOP+%26+Zero-Leak+Architecture;AI+%26+Multi-Agent+Orchestration+%E2%80%94+Beyond+Prompting;Game+Localization+%E2%80%94+81%2B+Projects+Completed;Reverse+Engineering+%E2%80%94+Understand.+Analyze.+Rebuild." alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3000&pause=1200&color=38BDF8&background=0E131F&center=true&vCenter=true&width=880&height=42&lines=C+%26+C%2B%2B+Systems+%E2%80%94+Modern+OOP+%26+RAII;AI+%26+Multi-Agent+Orchestration+%E2%80%94+Beyond+Prompting;Game+Localization+%E2%80%94+81%2B+Projects+Completed;Reverse+Engineering+%E2%80%94+Understand.+Analyze.+Rebuild." alt="Typing SVG">
+
+  <br>
 
   <!-- QUICK ACTION PILLS -->
   <p align="center">
