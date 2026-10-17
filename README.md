@@ -56,7 +56,7 @@
     <tr style="background: transparent;">
       <!-- LEFT: ABOUT ME CARD -->
       <td align="center" style="border: none; padding: 6px; vertical-align: top;">
-        <img src="./assets/about-card.svg" width="425" alt="Về mình">
+        <img src="./assets/about-card-v2.svg" width="425" alt="Về mình">
       </td>
       <!-- RIGHT: GITHUB STATS -->
       <td align="center" style="border: none; padding: 6px; vertical-align: top;">
@@ -85,7 +85,7 @@
 ### 🛠️ Kỹ Năng Kỹ Thuật & Kiến Trúc AI
 
 <div align="center">
-  <img src="./assets/tech-stack-showcase.svg" alt="Tech Stack & AI Architecture" width="880">
+  <img src="./assets/tech-stack-v2.svg" alt="Tech Stack & AI Architecture" width="880">
 </div>
 
 ---
