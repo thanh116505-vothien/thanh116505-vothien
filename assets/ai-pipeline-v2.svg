@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 275" width="880" height="275" fill="none">
+  <title>AI-Assisted Game Localization Pipeline - Từ Đồng Đến Mã</title>
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="pipe-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E1217"/>
+      <stop offset="100%" stop-color="#07090C"/>
+    </linearGradient>
+
+    <!-- Pipeline Flow Circuit Gradient -->
+    <linearGradient id="pipe-flow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="40%" stop-color="#00C896"/>
+      <stop offset="100%" stop-color="#36D7E8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Plate -->
+  <rect width="880" height="275" rx="10" fill="url(#pipe-bg)"/>
+  <rect x="8" y="8" width="864" height="259" rx="8" stroke="#1B2129" stroke-width="1.2"/>
+  <rect x="12" y="12" width="856" height="251" rx="6" stroke="#8C6B32" stroke-width="0.8" stroke-dasharray="8, 6" opacity="0.3"/>
+
+  <!-- Corner Brackets -->
+  <path d="M10,26 L10,10 L26,10" stroke="#D4AF37" stroke-width="1.8" fill="none"/>
+  <path d="M870,26 L870,10 L854,10" stroke="#36D7E8" stroke-width="1.8" fill="none"/>
+  <path d="M10,249 L10,265 L26,265" stroke="#8C6B32" stroke-width="1.8" fill="none"/>
+  <path d="M870,249 L870,265 L854,265" stroke="#00C896" stroke-width="1.8" fill="none"/>
+
+  <!-- Diagram Title Header with Large 16px Font -->
+  <text x="440" y="38" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" letter-spacing="2" fill="#D4AF37">
+    AI-ASSISTED LOCALIZATION PIPELINE ARCHITECTURE
+  </text>
+  <text x="440" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13" fill="#B9B2A3" letter-spacing="1">
+    FROM RAW GAME ASSETS TO RIGOROUS VALIDATED EXPORT
+  </text>
+
+  <!-- Connecting Bus Circuit Line with Jogs -->
+  <path d="M 64,125 L 180,125 L 296,125 L 412,125 L 528,125 L 644,125 L 760,125 L 816,125" 
+        stroke="url(#pipe-flow)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- ==================== NODE 01: EXTRACTION (GOLD) ==================== -->
+  <g transform="translate(68, 125)">
+    <circle cx="0" cy="0" r="26" fill="#12161B" stroke="#D4AF37" stroke-width="2"/>
+    <circle cx="0" cy="0" r="21" stroke="#8C6B32" stroke-width="1" stroke-dasharray="3, 3"/>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="800" fill="#F1DE9B">01</text>
+    <text x="0" y="46" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700" fill="#FFFFFF">Extraction</text>
+    <text x="0" y="62" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" fill="#CBD5E1">Assets / Raw</text>
+    <text x="0" y="76" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#D4AF37">Unity / RenPy</text>
+  </g>
+
+  <!-- ==================== NODE 02: CONTEXT (GOLD) ==================== -->
+  <g transform="translate(192, 125)">
+    <circle cx="0" cy="0" r="26" fill="#12161B" stroke="#D4AF37" stroke-width="2"/>
+    <circle cx="0" cy="0" r="21" stroke="#8C6B32" stroke-width="1" stroke-dasharray="3, 3"/>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="800" fill="#F1DE9B">02</text>
+    <text x="0" y="46" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700" fill="#FFFFFF">Context</text>
+    <text x="0" y="62" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" fill="#CBD5E1">Lore &amp; Speaker</text>
+    <text x="0" y="76" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#D4AF37">Graph Meta</text>
+  </g>
+
+  <!-- ==================== NODE 03: LLM TRANSLATION (JADE) ==================== -->
+  <g transform="translate(316, 125)">
+    <circle cx="0" cy="0" r="27" fill="#12161B" stroke="#00C896" stroke-width="2.2"/>
+    <circle cx="0" cy="0" r="22" stroke="#00C896" stroke-width="1" stroke-dasharray="3, 3" opacity="0.6"/>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="800" fill="#00C896">03</text>
+    <text x="0" y="46" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700" fill="#FFFFFF">LLM Engine</text>
+    <text x="0" y="62" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" fill="#CBD5E1">Few-Shot Prompt</text>
+    <text x="0" y="76" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#00C896">Localized VN</text>
+  </g>
+
+  <!-- ==================== NODE 04: TERMINOLOGY (JADE) ==================== -->
+  <g transform="translate(440, 125)">
+    <circle cx="0" cy="0" r="26" fill="#12161B" stroke="#00C896" stroke-width="2"/>
+    <circle cx="0" cy="0" r="21" stroke="#00C896" stroke-width="1" stroke-dasharray="3, 3" opacity="0.6"/>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="800" fill="#00C896">04</text>
+    <text x="0" y="46" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700" fill="#FFFFFF">Terminology</text>
+    <text x="0" y="62" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" fill="#CBD5E1">Glossary Sync</text>
+    <text x="0" y="76" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#00C896">Consistency</text>
+  </g>
+
+  <!-- ==================== NODE 05: PLACEHOLDER VALIDATION (CYAN) ==================== -->
+  <g transform="translate(564, 125)">
+    <circle cx="0" cy="0" r="26" fill="#12161B" stroke="#36D7E8" stroke-width="2"/>
+    <circle cx="0" cy="0" r="21" stroke="#36D7E8" stroke-width="1" stroke-dasharray="3, 3" opacity="0.6"/>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="800" fill="#36D7E8">05</text>
+    <text x="0" y="46" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700" fill="#FFFFFF">Validation</text>
+    <text x="0" y="62" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" fill="#CBD5E1">Tags &amp; Vars</text>
+    <text x="0" y="76" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#36D7E8">{0} &lt;color&gt;</text>
+  </g>
+
+  <!-- ==================== NODE 06: QA REVIEW (CYAN) ==================== -->
+  <g transform="translate(688, 125)">
+    <circle cx="0" cy="0" r="26" fill="#12161B" stroke="#36D7E8" stroke-width="2"/>
+    <circle cx="0" cy="0" r="21" stroke="#36D7E8" stroke-width="1" stroke-dasharray="3, 3" opacity="0.6"/>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="800" fill="#36D7E8">06</text>
+    <text x="0" y="46" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700" fill="#FFFFFF">QA Review</text>
+    <text x="0" y="62" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" fill="#CBD5E1">In-Game Test</text>
+    <text x="0" y="76" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#36D7E8">Glyph &amp; Flow</text>
+  </g>
+
+  <!-- ==================== NODE 07: JSON EXPORT (CYAN) ==================== -->
+  <g transform="translate(812, 125)">
+    <circle cx="0" cy="0" r="27" fill="#12161B" stroke="#36D7E8" stroke-width="2.2"/>
+    <circle cx="0" cy="0" r="22" stroke="#D4AF37" stroke-width="1" stroke-dasharray="3, 3"/>
+    <text x="0" y="6" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="800" fill="#F1DE9B">07</text>
+    <text x="0" y="46" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13.5" font-weight="700" fill="#FFFFFF">JSON Export</text>
+    <text x="0" y="62" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11.5" fill="#CBD5E1">Clean Repack</text>
+    <text x="0" y="76" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#36D7E8">100% Intact</text>
+  </g>
+
+  <!-- Bottom Sub-Label -->
+  <text x="440" y="248" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600" fill="#8C6B32">
+    TỪ ĐỒNG ĐẾN MÃ · SYSTEMATIC DATA TRANSFORMATION &amp; REVERSE INTEGRATION
+  </text>
+</svg>

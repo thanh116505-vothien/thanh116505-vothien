@@ -93,7 +93,7 @@
 ### 🚀 Dự Án Nổi Bật — Featured Projects
 
 <div align="center">
-  <img src="./assets/featured-projects.svg" alt="Dự án nổi bật" width="880">
+  <img src="./assets/featured-projects-v2.svg" alt="Dự án nổi bật" width="880">
 </div>
 
 ---
@@ -101,7 +101,7 @@
 ### 🔄 Quy Trình 7 Bước: Pipeline Việt Hóa Game Bằng AI
 
 <div align="center">
-  <img src="./assets/ai-pipeline.svg" alt="Quy trình 7 bước bản địa hóa bằng AI Agent" width="880">
+  <img src="./assets/ai-pipeline-v2.svg" alt="Quy trình 7 bước bản địa hóa bằng AI Agent" width="880">
 </div>
 
 ---
@@ -110,7 +110,7 @@
 
 <div align="center">
   <a href="https://discord.gg/pW86HytX" target="_blank">
-    <img src="./assets/connect-card.svg" alt="Kết nối Discord & GitHub" width="880">
+    <img src="./assets/connect-card-v2.svg" alt="Kết nối Discord & GitHub" width="880">
   </a>
 </div>
 
